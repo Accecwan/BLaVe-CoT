@@ -1,0 +1,7 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting cython
+  Using cached http://mirrors.aliyun.com/pypi/packages/cb/2e/7e6a45bc7a1ff327fca37c3473eb36864ec78abf81ecfb7eed0dab4a9a90/Cython-3.0.12-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+Requirement already satisfied: numpy in /root/miniconda3/envs/vqa/lib/python3.9/site-packages (1.26.3)
+Requirement already satisfied: setuptools in /root/miniconda3/envs/vqa/lib/python3.9/site-packages (75.8.0)
+Installing collected packages: cython
+Successfully installed cython-3.0.12
