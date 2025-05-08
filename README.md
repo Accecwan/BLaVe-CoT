@@ -1,4 +1,4 @@
-# BLaVe-CoT
+# BLaVe-CoT: Consistency-Aware Visual Question Answering for Blind and Low Vision Users
 
 ## Introduction🚀
 
@@ -34,11 +34,11 @@ Make sure to update the paths in the script accordingly, pointing to where you s
 ### 2.Models
 The framework uses the following models for visual question answering:
 
-1.**BLIP-2 Model:**This is the base model used for answering questions. You can download the original pre-trained [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) model from Hugging Face, and obtain the LoRA fine-tuned BLIP-2 model from [Lora-BLIP2](https://pan.baidu.com/s/1iSaezH5KvSq91BLcCD212w?pwd=uhvc).
+1. **BLIP-2 Model:** This is the base model used for answering questions. You can download the original pre-trained [blip2-opt-2.7b](https://huggingface.co/Salesforce/blip2-opt-2.7b) model from Hugging Face, and obtain the LoRA fine-tuned BLIP-2 model from [Lora-BLIP2](https://pan.baidu.com/s/1iSaezH5KvSq91BLcCD212w?pwd=uhvc).
 
-2.**PolyFormer:**This model is used for spatially grounding the answers to specific regions in the image. You can download the pre-trained [PolyFormer](https://drive.google.com/file/d/1lUCv7dUPctEz4vEpPr7aI8A8ZmfYCB8y/view) model.
+2. **PolyFormer:** This model is used for spatially grounding the answers to specific regions in the image. You can download the pre-trained [PolyFormer](https://drive.google.com/file/d/1lUCv7dUPctEz4vEpPr7aI8A8ZmfYCB8y/view) model.
 
-3.**all-MiniLM-L6-v2 Model:**This model is used for evaluating semantic similarity between generated answers. You can download the [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) model from Hugging Face.
+3. **all-MiniLM-L6-v2 Model:** This model is used for evaluating semantic similarity between generated answers. You can download the [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) model from Hugging Face.
 
 Ensure you have these models downloaded and placed in the appropriate directories before running the system.
 
